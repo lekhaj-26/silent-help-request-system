@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+
+# Environment files - NEVER commit!
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+
+# Local test data
+data/*.json
+!data/.gitkeep
+
+# Editor & System
+.DS_Store
+.vscode/
+.idea/

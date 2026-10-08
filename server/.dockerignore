@@ -1,0 +1,11 @@
+node_modules
+npm-debug.log
+.env
+.env.*
+!.env.example
+.git
+.gitignore
+*.log
+test_workflow.js
+data/*.json
+!data/.gitkeep
